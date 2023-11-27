@@ -135,7 +135,7 @@ const quick__links2 = [
         </Col>
            
            <Col lg='12' className="text-center pt-5">
-            <p className='copyrights'>Copyrights {year}, design and developed by Mugesh Kanna. All rights reserved.</p>
+            <p className='copyrights'>Copyrights {year} All rights reserved.</p>
            </Col>
         </Row>
       </Container>
