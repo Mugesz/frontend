@@ -1,0 +1,26 @@
+
+
+.thank__you span i{
+    font-size: 4rem;
+    color:green
+}
+
+.thank__you h1{
+    font-size: 0.3em 0.6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.thank__you{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .thank__you span i {
+        font-size: 3rem; /* Adjust the value as needed */
+    }
+
+    .thank__you h1 {
+        font-size: 1.4rem; /* Adjust the value as needed */
+        line-height: 1.8rem; /* Adjust the value as needed */
+    }
+}
