@@ -12,9 +12,16 @@ import Newsletter from '../../shared/newsletter/NewsLetter'
 
 
 import '../styles/tour.css';
+import axios from 'axios';
 
 
 const Tours = () => {
+  const [TourData, setTourData] = useState("")
+
+  const data =async ()=>{
+    const responce = await axios.get("https://backend-tour-1.onrender.com/get")
+    setTourData(responce.data)
+  }
 
     const [pageCount, setPageCount] = useState(0);
     const [page, Setpage] = useState(0);
