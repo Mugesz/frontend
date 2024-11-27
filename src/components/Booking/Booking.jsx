@@ -30,7 +30,7 @@ const Booking = ({ tour, avgRating }) => {
   const handleClick = (e) => {
     e.preventDefault();
 
-    navigate("/thank-you");
+    navigate("/payment");
   };
 
   return (
